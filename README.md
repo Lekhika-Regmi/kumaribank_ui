@@ -19,4 +19,4 @@ This Flutter project is a replica of the **Kumari Bank** landing page, created t
 1. Clone the repository:
 
    ```bash
-   git clone <your-repo-url>
+   git clone <https://github.com/Lekhika-Regmi/kumaribank_ui.git>
