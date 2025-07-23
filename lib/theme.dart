@@ -4,6 +4,7 @@ final ThemeData lightTheme = ThemeData(
   useMaterial3: true,
   colorScheme: ColorScheme.fromSeed(
     seedColor: Color(0xFF008DB8), // Blue
+    surface: Colors.white,
     brightness: Brightness.light,
     primary: Color(0xFF008DB8),
     secondary: Color(0xFFFFCB05), // Yellow
@@ -18,7 +19,10 @@ final ThemeData lightTheme = ThemeData(
     style: ElevatedButton.styleFrom(
       backgroundColor: Color(0xFFFFCB05),
       foregroundColor: Colors.black,
-      textStyle: TextStyle(fontWeight: FontWeight.bold),
+      padding: EdgeInsets.symmetric(horizontal: 10),
+      minimumSize: Size(double.infinity, 56),
+      textStyle: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
     ),
   ),
   textTheme: TextTheme(
