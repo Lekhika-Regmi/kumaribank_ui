@@ -11,7 +11,7 @@ This Flutter project is a replica of the **Kumari Bank** landing page, created t
 
 
 # Kumari Bank Landing Page
-![Kumari Bank Landing Page](assets/kumari_readme.jpg)
+![Kumari Bank Landing Page](assets/kumari_readme.png)
 
 
 ## Getting Started
