@@ -49,6 +49,7 @@ class ServiceSection extends StatelessWidget {
               Text(
                 title,
                 style: theme.textTheme.titleLarge?.copyWith(
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -65,12 +66,12 @@ class ServiceSection extends StatelessWidget {
                 ),
             ],
           ),
-          // const SizedBox(height: 12),
+          const SizedBox(height: 25),
           // Icon Grid
           GridView.count(
             shrinkWrap: true,
             crossAxisCount: 4,
-            mainAxisSpacing: 10,
+            mainAxisSpacing: 14,
             crossAxisSpacing: 8,
             physics: const NeverScrollableScrollPhysics(),
             children: displayItems
