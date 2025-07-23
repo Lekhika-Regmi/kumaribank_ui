@@ -9,9 +9,10 @@ This Flutter project is a replica of the **Kumari Bank** landing page, created t
 - Clean and modern UI following the bank's official branding
 - Includes images and icons stored in the `assets` folder
 
-## Assets
 
-- `assets/kumari_readme.png` — Screenshot or design reference of the landing page
+# Kumari Bank Landing Page
+![Kumari Bank Landing Page](assets/kumari_readme.jpg)
+
 
 ## Getting Started
 
